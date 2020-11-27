@@ -14,8 +14,32 @@
       box-sizing: inherit;
   }
 
+  body{
+      font-family: 'Montserrat';
+      font-size: 18px;
+      font-style: normal;
+      line-height: 1.2;
+      font-weight: normal;
+      color: #060606;
+  }
+
   #outer-container{
       display: grid;
-      grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+      grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
       grid-template-columns: 1fr;
   }
+
+.union{
+    grid-row: 1/2;
+}
+.header_list{
+    display: inline-flex;
+}
+.header_item{
+    margin-right: 85px;
+    text-decoration: none;
+}
+.header_item:last-child{
+    margin-right: 0;
+}
+
