@@ -33,11 +33,14 @@
 }
 #header_wrap{
     display: grid;
-    grid-template-rows: 85,07px 34,93px 687,07px;
+    grid-template-rows: 85.07px 34.93px 687.07px;
     grid-template-columns: 1fr;
  }
 .header_nav{
     grid-row: 1/2;
+    display: flex;
+}
+.header_list{
     display: flex;
 }
 li {
@@ -75,7 +78,7 @@ li {
     grid-template-columns: 1fr;
 }*/
 .video_1{
-    grid-row: 2/4;
+    grid-row: 3/4;
     background: url(../img/Sparkle\ Video\ 1.png) no-repeat;
     background-size: cover;
 }
