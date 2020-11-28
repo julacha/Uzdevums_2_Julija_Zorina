@@ -66,6 +66,7 @@ li {
     grid-row: 2/3;
     background: url(../img/Vector_header.png) no-repeat;
     background-size: cover;
+    z-index: 1;
 }
 /* Header styles end */
 /* main styles start 
