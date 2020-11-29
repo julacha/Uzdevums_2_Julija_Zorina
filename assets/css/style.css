@@ -24,7 +24,7 @@
 
 #outer-container{
       display: grid;
-      grid-template-rows: 769px 1fr 1fr 1fr 1fr 1fr;
+      grid-template-rows: 814.51px 1fr 1fr 1fr 1fr 1fr;
       grid-template-columns: 1fr;
   } 
 .union{
@@ -33,11 +33,12 @@
 }
 #header_wrap{
     display: grid;
-    grid-template-rows: 85.07px 34.93px 687.07px;
+    grid-template-rows: 92.51px 34.93px 722px;
     grid-template-columns: 1fr;
  }
 .header_nav{
     grid-row: 1/2;
+    grid-column: 1;
     display: flex;
 }
 .header_list{
@@ -64,6 +65,7 @@ li {
 }
 .header_vector{
     grid-row: 2/3;
+    grid-column: 1;
     background: url(../img/Vector_header.png) no-repeat;
     background-size: cover;
     z-index: 1;
@@ -79,7 +81,8 @@ li {
     grid-template-columns: 1fr;
 }*/
 .video_1{
-    grid-row: 3/4;
+    grid-row: 2/4;
+    grid-column: 1;
     background: url(../img/Sparkle\ Video\ 1.png) no-repeat;
     background-size: cover;
 }
