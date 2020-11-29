@@ -66,7 +66,8 @@ li {
 .header_vector{
     grid-row: 2/3;
     grid-column: 1;
-    background: url(../img/Vector_header.png) no-repeat;
+    
+    /*background: url(../img/Union.jpg) no-repeat;*/
     background-size: cover;
     z-index: 1;
 }
