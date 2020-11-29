@@ -33,7 +33,7 @@
 }
 #header_wrap{
     display: grid;
-    grid-template-rows: 92.51px 34.93px 722px;
+    grid-template-rows: 85.07px 34.93px 722px;
     grid-template-columns: 1fr;
  }
 .header_nav{
@@ -66,7 +66,6 @@ li {
 .header_vector{
     grid-row: 2/3;
     grid-column: 1;
-    
     /*background: url(../img/Union.jpg) no-repeat;*/
     background-size: cover;
     z-index: 1;
@@ -86,4 +85,10 @@ li {
     grid-column: 1;
     background: url(../img/Sparkle\ Video\ 1.png) no-repeat;
     background-size: cover;
+    display:flex;
+}
+.play{
+    justify-content: center;
+    text-align: center;
+    z-index: 1;
 }
