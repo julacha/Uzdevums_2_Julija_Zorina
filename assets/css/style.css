@@ -88,8 +88,14 @@ li {
     grid-column: 1;
 }
 .video_1{
-    grid-row: 2/4;
+    grid-row: 2/5;
     grid-column: 1;
+    background: url(../img/Sparkle\ Video\ 1.png) no-repeat;
+    background-size: cover;
+}
+.play{
+    margin-top: 319px;
+    margin-left: 640px;
 }
 /* Header styles end */
-/* main styles start */
+/* Main styles start */
