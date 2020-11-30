@@ -33,22 +33,23 @@
 }
 #header_wrap{
     display: grid;
-    grid-template-rows: 85.07px 7.44px  27.49px 722px;
+    grid-template-rows: 47px 38.07px 7.44px 27.49px 722px;
     grid-template-columns: 1fr;
-    
+    gap: 5px;
  }
- .header_union{
-    grid-row: 1/4;
-    grid-column: 1;
+.header_union{
+    /*grid-row: 1/5;
+    grid-column: 1;*/
+    grid-area: 1/1/5/2;
     background: url(../img/Union.svg) no-repeat;
     background-size: cover;
     z-index: 1;
  }
 .header_nav{
-    grid-row: 2/3;
-    grid-column: 1;
+    /*grid-row: 2/3;
+    grid-column: 1;*/
+    grid-area: 2/1/3/2;
     display: flex;    
-
 }
 
 .header_logo{
@@ -79,21 +80,24 @@ li {
     text-decoration: none;
 }
 .hidden{
-    grid-row: 2/3;
-    grid-column: 1;
+    /*grid-row: 3/4;
+    grid-column: 1;*/
+    grid-area: 3/1/4/2;
 }
 .header_vector{
-    grid-row: 2/4;
-    grid-column: 1;
+    /*grid-row: 4/5;
+    grid-column: 1;*/
+    grid-area: 4/1/5/2;
 }
 .video_1{
-    grid-row: 1/5;
-    grid-column: 1;
+    /*grid-row: 1/6 ;
+    grid-column: 1;*/
+    grid-area: 1/1/6/2; 
     background: url(../img/Sparkle\ Video\ 1.png) no-repeat;
     background-size: cover;
 }
 .play{
-    margin-top: 319px;
+    margin-top: 366px;
     margin-left: 640px;
 }
 /* Header styles end */
