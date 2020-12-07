@@ -24,7 +24,7 @@
 
 #outer-container{
       display: grid;
-      grid-template-rows: 842px 1fr 1fr 1fr 1fr 1fr;
+      grid-template-rows: 769px 414px 1fr 1fr 1fr 1fr;
       grid-template-columns: 1fr;
   } 
 .union{
@@ -33,7 +33,7 @@
 }
 #header_wrap{
     display: grid;
-    grid-template-rows: 47px 38.07px 7.44px 27.49px 722px;
+    grid-template-rows: 47px 38.07px 7.44px 27.49px 649px;
     grid-template-columns: 1fr;
     gap: 5px;
  }
@@ -92,13 +92,24 @@ li {
 .video_1{
     /*grid-row: 1/6 ;
     grid-column: 1;*/
-    grid-area: 1/1/6/2; 
+    grid-area: 2/1/6/2; 
     background: url(../img/Sparkle\ Video\ 1.png) no-repeat;
     background-size: cover;
 }
 .play{
     margin-top: 366px;
     margin-left: 640px;
+}
+.text{
+    grid-area: 2/1/3/2;
+    display: flex;
+}
+.container{
+    height: 114px;
+    width: 654px;
+    margin-left: 359px;
+    margin-right: 353px;
+    text-align: center;
 }
 /* Header styles end */
 /* Main styles start */
