@@ -212,3 +212,7 @@ li {
     height: 50px;
     margin-left: 218px;
 }
+.formcontainer{
+    display: flex;
+    justify-content: center;
+}
