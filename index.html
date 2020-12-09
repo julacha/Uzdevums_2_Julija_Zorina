@@ -82,12 +82,17 @@
 </div>
 </div><!--close "register"-->
 <div class="formcontainer">
+<div class="meil">SAZINĀTIES AR MUMS</div>
     <form action="index.php" method="POST" class="log">
-            <label for="task">SAZINĀTIES AR MUMS</label>
-            <input type="text" name="task" class="task_input">
-            <button type="submit" class="task_btn" name="addBtn">ADD</button> 
-    </form>
-</div>
+        <div class="log_in">
+            <input type="text" placeholder="Vārds, Uzvārds*"class="logtext" name="username" required></input>
+            <input type="email" placeholder="E-pasts*" class="signemail" name="email" required></input>
+        </div>   
+            <input type="number" placeholder="Telefons*" class="telephone" name="Telefons" required></input>             
+            <textarea rows="5" cols="35" name="comment" class="comment" id="message" >Jautājums, vai komentārs*</textarea>
+			<input type="Submit" value="Sutīt">
+    </form>     
+</div><!--close "formcontainer"-->  
 </div><!--close "outer-container"-->   
 </body>
 </html>

@@ -50,7 +50,7 @@ body{
 
 #outer-container{
     display: grid;
-    grid-template-rows: 769px 414px 398px 329px 1fr 1fr;
+    grid-template-rows: 769px 414px 398px 429px 967px 1fr;
     grid-template-columns: 1fr;
     gap: 5px;
 }
@@ -206,13 +206,75 @@ li {
     width: 233px;
     height: 50px;
     margin-left: 300px;
+    margin-bottom: 150px;
 }
 .poga_reg_2{
     width: 233px;
     height: 50px;
     margin-left: 218px;
+    margin-bottom: 150px;
 }
 .formcontainer{
+    grid-area: 5/1/6/2;
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+}
+.meil{
+    height: 48px;
+    width: 819px;
+    font-family: 'Oswald';
+    font-size: 30px;
+    font-weight: 500;
+    color: #2F4858;
+    align-items: center;
+    margin-bottom: 55px;
+}
+.log{
+    display: flex;
+    flex-direction: column;
+    width: 612px;
+    align-items: center;
+}
+.log_in{
+    display: flex;
+    flex-direction: row;
+}
+.logtext{
+    width: 296px;
+    height: 43px;
+    border-radius: 6px;
+    background: rgba(196, 196, 196, 0.4);
+    margin-right: 20px;
+    color: rgb(47,72,88,1);
+    font-family: 'Montserrat';
+    border-style: none;
+}
+.signemail{
+    width: 296px;
+    height: 43px;
+    border-radius: 6px;
+    background: rgba(196, 196, 196, 0.4);
+    color: rgb(47,72,88,1);
+    font-family: 'Montserrat';
+    border-style: none;
+}
+.telephone{
+    width: 612px;
+    height: 43px;
+    border-radius: 6px;
+    background: rgba(196, 196, 196, 0.4);
+    color: rgb(47,72,88,1);
+    margin-top: 15px;
+    font-family: 'Montserrat';
+    border-style: none;
+}
+.comment{
+    width: 612px;
+    height: 43px;
+    border-radius: 6px;
+    background: rgba(196, 196, 196, 0.4);
+    color: rgb(47,72,88,1);
+    margin-top: 15px;
+    font-family: 'Montserrat';
+    border-style: none;
 }
