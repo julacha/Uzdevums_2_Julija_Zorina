@@ -248,6 +248,7 @@ li {
     margin-right: 20px;
     color: rgb(47,72,88,1);
     font-family: 'Montserrat';
+    font-size: 18px;
     border-style: none; 
 }
 .signemail{
@@ -257,6 +258,7 @@ li {
     background: rgba(196, 196, 196, 0.4);
     color: rgb(47,72,88,1);
     font-family: 'Montserrat';
+    font-size: 18px;
     border-style: none;
 }
 .telephone{
@@ -267,15 +269,22 @@ li {
     color: rgb(47,72,88,1);
     margin-top: 15px;
     font-family: 'Montserrat';
+    font-size: 18px;
     border-style: none;
 }
 .comment{
     width: 612px;
-    height: 43px;
+    height: 232px;
     border-radius: 6px;
     background: rgba(196, 196, 196, 0.4);
     color: rgb(47,72,88,1);
     margin-top: 15px;
     font-family: 'Montserrat';
+    font-size: 18px;
     border-style: none;
+    padding-top: 12px;
+    padding-left: 12px;
+}
+.lauki{
+    margin-top: 15px;
 }
