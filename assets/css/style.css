@@ -50,7 +50,7 @@ body{
 
 #outer-container{
     display: grid;
-    grid-template-rows: 769px 414px 398px 429px 967px 1fr;
+    grid-template-rows: 769px 414px 398px 429px 817px 450px 59.75px 481.59px 376px;
     grid-template-columns: 1fr;
     gap: 5px;
 }
@@ -303,7 +303,20 @@ li {
     font-size: 14px;
 }
 .sbmbutton{
-color: none;
-background-color: none;
+background-color: white;
 border: none;
+padding:0;
+}
+.sbmbutton:focus {
+    outline: none !important
+    }
+.atbalstitaji{
+    grid-area: 6/1/7/2;
+    background: url(../img/atbalstitaji.png) no-repeat;
+    background-size: cover;
+}
+footer{
+    grid-area: 7/1/8/2;
+    background: url(../img/footer.png) no-repeat;
+    background-size: cover;
 }
