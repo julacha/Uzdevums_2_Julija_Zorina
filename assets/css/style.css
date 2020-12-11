@@ -287,4 +287,23 @@ li {
 }
 .lauki{
     margin-top: 15px;
+    height: 25px;
+    width: 612px;
+    font-size: 14px;
+}
+.check{
+    margin-top: 25px;
+    margin-bottom: 50px;
+    height: 39px;
+    width: 612px;
+    display: inline-flex;
+}
+.check_text{
+    margin-left: 21px;
+    font-size: 14px;
+}
+.sbmbutton{
+color: none;
+background-color: none;
+border: none;
 }
