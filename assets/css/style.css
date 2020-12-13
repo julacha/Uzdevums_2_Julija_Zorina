@@ -193,21 +193,26 @@ body{
 }
 .register{
     grid-area: 4/1/5/2;
-    display: flex;
 }
 .inner_register{
     display: grid;
-    grid-template-rows: 769px 414px 398px 429px 817px 422.57px 59.32px 376px;
-    grid-template-columns: 1fr 1fr;
-
+    grid-template-rows: 1fr;
+    grid-template-columns: auto auto;
+    gap:5px;
 }
 .sapnotajiem{
-    display: flex;
-    flex-direction: column; 
-}
-.uznemejiem{
+    grid-area: 1/1/2/2;
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.uznemejiem{
+    grid-area: 1/2/2/3;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 .reg_1{
     font-family: 'Oswald';
@@ -217,7 +222,7 @@ body{
     line-height: 35.57px;
     margin-top: 150px;
     margin-bottom: 50px;
-    margin-left: 220px;
+    /* margin-left: 220px; */
     text-align: center;
     width: 394px;
 }
@@ -229,20 +234,20 @@ body{
     line-height: 35.57px;
     margin-top: 150px;
     margin-bottom: 50px;
-    margin-left: 84px;
+    /* margin-left: 84px; */
     text-align: center;
     width: 500px;
 }
 .poga_reg_1{
     width: 233px;
     height: 50px;
-    margin-left: 300px;
+    /* margin-left: 300px; */
     margin-bottom: 150px;
 }
 .poga_reg_2{
     width: 233px;
     height: 50px;
-    margin-left: 218px;
+    /* margin-left: 218px; */
     margin-bottom: 150px;
 }
 .formcontainer{
@@ -343,8 +348,45 @@ padding:0;
     }
 .atbalstitaji{
     grid-area: 6/1/8/2;
-    background: url(../img/atbalstitaji.png) no-repeat;
+    background: url(../img/Subtract.png) no-repeat;
     background-size: cover;
+}
+.inner_atbalstitaji{
+    display: grid;
+    grid-template-rows: 218px 404.32px;
+    grid-template-columns: 25% 25% 25% 25%;
+    gap:5px;
+}
+.heading{
+    grid-area: 1/1/2/5;
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+    font-family: 'Oswald';
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 35.37px;
+    color: rgba(47,72,88,1);
+}
+.icon_1{
+    grid-area: 2/1/3/2;
+    background: url(../img/getlogo\ 1.png) no-repeat;
+    margin-left: 168px;
+}
+.icon_2{
+    grid-area: 2/2/3/3;
+    background: url(../img/sem_logo-2\ 1.png) no-repeat;
+    display: flex;
+    align-items: flex-end;
+    
+}
+.icon_3{
+    grid-area: 2/3/3/4;
+    background: url(../img/Citybee-logo\ 1.png) no-repeat; 
+}
+.icon_4{
+    grid-area: 2/4/3/5;
+    background: url(../img/logo1\ 1.png) no-repeat; 
 }
 .hidden_footer{
     grid-area: 7/1/8/2;
