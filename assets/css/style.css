@@ -370,23 +370,36 @@ padding:0;
 }
 .icon_1{
     grid-area: 2/1/3/2;
-    background: url(../img/getlogo\ 1.png) no-repeat;
-    margin-left: 168px;
+    /* background: url(../img/getlogo\ 1.png) no-repeat; */
+    align-items: flex-start;
+    direction: rtl;
 }
 .icon_2{
     grid-area: 2/2/3/3;
-    background: url(../img/sem_logo-2\ 1.png) no-repeat;
+    /* background: url(../img/sem_logo-2\ 1.png) no-repeat; */
     display: flex;
-    align-items: flex-end;
-    
+    align-items: flex-start;
+    direction: rtl;
 }
+
+/* .sem{
+    display: flex;
+    align-items: inherit;
+    justify-content: right;
+} */
 .icon_3{
     grid-area: 2/3/3/4;
-    background: url(../img/Citybee-logo\ 1.png) no-repeat; 
+    /* background: url(../img/Citybee-logo\ 1.png) no-repeat; */
+    display: flex;
+    align-items: flex-start;
+    direction: rtl; 
 }
 .icon_4{
     grid-area: 2/4/3/5;
-    background: url(../img/logo1\ 1.png) no-repeat; 
+    /* background: url(../img/logo1\ 1.png) no-repeat; */
+    display: flex;
+    align-items: flex-start;
+    justify-content: center; 
 }
 .hidden_footer{
     grid-area: 7/1/8/2;
