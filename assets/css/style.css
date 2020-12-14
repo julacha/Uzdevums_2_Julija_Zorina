@@ -409,3 +409,30 @@ footer{
     background: url(../img/footer.png) no-repeat;
     background-size: cover;
 }
+.inner_footer{
+    display:grid;
+    grid-template-rows: 376px;
+    grid-template-columns: 25% 25% 25% 25%;
+    gap:5px;
+}
+.logo{
+    grid-area: 1/1/2/2;
+    display: flex;
+    
+}
+.footer_logo{
+    margin-bottom: 70px;
+    margin-top: 71.43px;
+}
+.tiesibas{
+    margin-bottom: 13px;
+}
+.inner_menu{
+    grid-area: 1/2/2/3;
+}
+.biedriba{
+    grid-area: 1/3/2/4;
+}
+.kontakti{
+    grid-area: 1/4/2/5;
+}
