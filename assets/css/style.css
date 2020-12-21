@@ -70,6 +70,11 @@ body{
 }
 .header_union{
     grid-area: 1/2/2/3;
+    display:inline-flex;
+    justify-self:flex-end;
+ }
+.menu_img{
+display: none;
  }
 .header_nav{
     grid-area: 2/2/3/3;
@@ -222,7 +227,6 @@ body{
     line-height: 35.57px;
     margin-top: 150px;
     margin-bottom: 50px;
-    /* margin-left: 220px; */
     text-align: center;
     width: 394px;
 }
@@ -428,7 +432,7 @@ footer{
 .tiesibas{
     margin-bottom: 13px;
     color: rgba(255,255,255,1);
-    font-size: 14px;
+    font-size: 14px;  
 }
 .inner_menu{
     grid-area: 1/2/2/3;
@@ -490,4 +494,20 @@ footer{
 }
 .facebook{
     margin-right: 29px;
+}
+@media (max-width: 576px){
+    .header_nav{
+     display: none;
+    }
+    .menu_img{
+        display: flex;
+        margin-top: 35px;
+        margin-right: 19.01px;
+    }
+    .inner_menu{
+        display: none;
+    }
+    .biedriba{
+        display: none;
+    }
 }
