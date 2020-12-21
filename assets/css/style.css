@@ -76,6 +76,9 @@ body{
 .menu_img{
 display: none;
  }
+.menu_mobile{
+    display: none;
+}
 .header_nav{
     grid-area: 2/2/3/3;
     background-color: white;
@@ -468,13 +471,16 @@ footer{
     grid-area: 1/4/2/5;
     margin-right: 64px;
 }
-.name{
+.name2{
     font-size: 24px;
     color: rgba(255,255,255,1);
     display: flex;
     flex-direction: column;
     text-align: right;
     margin-top: 71px;
+}
+.name1{
+display:none;
 }
 .kont{
     font-size: 18px;
@@ -495,7 +501,7 @@ footer{
 .facebook{
     margin-right: 29px;
 }
-@media (max-width: 576px){
+@media (max-width: 768px){
     .header_nav{
      display: none;
     }
@@ -504,10 +510,112 @@ footer{
         margin-top: 35px;
         margin-right: 19.01px;
     }
+    .menu_mobile{
+        display: none;
+    }
+    .inner_footer{
+        display:grid;
+        grid-template-rows: 376px 1fr;
+        grid-template-columns: 1fr 1fr;
+        gap:5px;
+    }
+    .logo{
+        grid-area: 1/1/2/2;
+        display: flex;
+        flex-direction: column;
+        align-items:center;
+    }
+    .kontakti{
+        grid-area: 1/2/2/3;
+        margin-top: 71px;
+        margin-right: 64px;
+    }
+    .name1{
+        font-size: 24px;
+        color: rgba(255,255,255,1);
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 35px;
+    }
+    .name2{
+        display: none;
+    }
+    .tiesibas{
+        grid-area: 2/1/3/3;
+        font-size: 16px;
+    }
     .inner_menu{
         display: none;
     }
     .biedriba{
         display: none;
     }
+}
+@media (max-width: 320px){
+    .menu_img{
+        display: none;
+    }
+    .menu_mobile{
+        display: flex;
+        margin-top: 35px;
+        margin-right: 19.01px;
+        width: 15px;
+        height: 15px;
+    }
+    #inner_gallery_mobile{
+        display: grid;
+        grid-template-rows: 24px 180px 184px 24 px;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+    .ripped_6_7{
+        grid-area: 1/1/2/5;
+        background: url(../img/ripped\ 6\ 7.svg) no-repeat;
+        background-size: cover;
+        z-index: 1;
+    }
+    .Zanda{
+        grid-area: 1/1/5/2;
+        margin-top: 14px;
+        background: url(../img/Zanda_1.jpg) no-repeat;
+        background-size: cover;
+        /* width: 328px;
+        height: 355px; */
+    }
+    .Sibilla{
+        grid-area: 1/2/5/3;
+        margin-top: 19px;
+        background: url(../img/Sibilla_4.jpg) no-repeat;
+        background-size: cover;
+        /* width: 334px;
+        height: 364px; */
+    }
+    .Brinummeita{
+        grid-area: 1/3/3/4;
+        margin-top: 19px;
+        background: url(../img/Brinuma_meita-15.jpg) no-repeat;
+        background-size: cover;
+        /* width: 298px;
+        height: 180px; */
+    }
+    .Alina{
+        grid-area: 3/3/5/4;
+        background: url(../img/Alina_1\ 1.jpg) no-repeat;
+        background-size: cover;
+        /* width: 298px;
+        height: 184px; */
+    }
+    .Anda{
+        grid-area: 1/4/5/5;
+        background: url(../img/Anda_2\ 1.jpg) no-repeat;
+        background-size: cover;
+        /* width: 406px;
+        height: 383px; */
+    }
+    .ripped_6_8{
+        grid-area: 4/1/5/5;
+        background: url(../img/ripped\ 6\ 8.svg) no-repeat;
+        background-size: cover;
+        z-index: 1;
+    }
+
 }
