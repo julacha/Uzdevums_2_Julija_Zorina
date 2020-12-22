@@ -599,12 +599,12 @@ display:none;
         background-size: cover;
     }
     .Zanda{
-        grid-area: 4/1/5/3;
+        grid-area: 4/1/6/3;
         background: url(../img/Zanda_1.jpg) no-repeat;
         background-size: cover;
     }
     .Sibilla{
-        grid-area: 4/3/5/4;
+        grid-area: 4/3/6/4;
         background: url(../img/Sibilla_4.jpg) no-repeat;
         background-size: cover;
     }
