@@ -425,7 +425,7 @@ footer{
     background: url(../img/footer.png) no-repeat;
     background-size: cover;
 }
-.inner_footer{
+#inner_footer{
     display:grid;
     grid-template-rows: 376px;
     grid-template-columns: 25% 25% 25% 25%;
@@ -511,196 +511,202 @@ display:none;
     margin-right: 29px;
 }
 @media (max-width: 768px){
-    .header_nav{
-     display: none;
-    }
-    .menu_img{
-        display: flex;
-        margin-top: 35px;
-        margin-right: 19.01px;
-    }
-    .menu_mobile{
-        display: none;
-    }
-    #inner_gallery_mobile{
-        display: none;
-    }
-    #inner_register_mobile{
-        display: none;
-    }
-    #inner_atbalstitaji_mobile{
-        display: none;
-    }
-    .inner_footer{
-        display:grid;
-        grid-template-rows: 376px 1fr;
-        grid-template-columns: 1fr 1fr;
-        gap:5px;
-    }
-    .logo{
-        grid-area: 1/1/2/2;
-        display: flex;
-        flex-direction: column;
-        align-items:center;
-    }
-    .kontakti{
-        grid-area: 1/2/2/3;
-        margin-top: 71px;
-        margin-right: 64px;
-    }
-    .name1{
-        font-size: 24px;
-        color: rgba(255,255,255,1);
-        display: flex;
-        flex-direction: column;
-        margin-bottom: 35px;
-    }
-    .name2{
-        display: none;
-    }
-    .tiesibas{
-        grid-area: 2/1/3/3;
-        font-size: 16px;
-    }
-    .inner_menu{
-        display: none;
-    }
-    .biedriba{
-        display: none;
-    }
+.header_nav{
+    display: none;
+}
+.menu_img{
+    display: flex;
+    margin-top: 35px;
+    margin-right: 19.01px;
+}
+.menu_mobile{
+    display: none;
+}
+#inner_gallery_mobile{
+    display: none;
+}
+#inner_register_mobile{
+    display: none;
+}
+#inner_atbalstitaji_mobile{
+    display: none;
+}
+.inner_footer{
+    display:grid;
+    grid-template-rows: 376px 1fr;
+    grid-template-columns: 1fr 1fr;
+    gap:5px;
+}
+.logo{
+    grid-area: 1/1/2/2;
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+}
+.kontakti{
+    grid-area: 1/2/2/3;
+    margin-top: 71px;
+    margin-right: 64px;
+}
+.name1{
+    font-size: 24px;
+    color: rgba(255,255,255,1);
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 35px;
+}
+.name2{
+    display: none;
+}
+.tiesibas{
+    grid-area: 2/1/3/3;
+    font-size: 16px;
+}
+.inner_menu{
+    display: none;
+}
+.biedriba{
+    display: none;
+}
 }
 @media (max-width: 320px){
-    .menu_img{
-        display: none;
-    }
-    .menu_mobile{
-        display: flex;
-        margin-top: 35px;
-        margin-right: 19.01px;
-        width: 15px;
-        height: 15px;
-    }
-    #inner_gallery{
-        display: none;
-    }
-    #inner_gallery_mobile{
-        display: grid;
-        grid-template-rows: 24px 89px 82px 183px 25px;
-        grid-template-columns: auto 32px auto;
-    }
-    .ripped_6_7{
-        grid-area: 1/1/2/4;
-        background: url(../img/ripped\ 6\ 7.svg) no-repeat;
-        background-size: cover;
-        z-index: 1;
-    }
-    .Brinummeita{
-        grid-area: 1/1/3/2;
-        background: url(../img/Brinuma_meita-15.jpg) no-repeat;
-        background-size: cover;
-        margin-top: 7px;
+.menu_img{
+    display: none;
+}
+.menu_mobile{
+    display: flex;
+    margin-top: 35px;
+    margin-right: 19.01px;
+    width: 15px;
+    height: 15px;
+}
+#inner_gallery{
+    display: none;
+}
+#inner_gallery_mobile{
+    display: grid;
+    grid-template-rows: 24px 89px 82px 183px 25px;
+    grid-template-columns: auto 32px auto;
+}
+.ripped_6_7{
+    grid-area: 1/1/2/4;
+    background: url(../img/ripped\ 6\ 7.svg) no-repeat;
+    background-size: cover;
+    z-index: 1;
+}
+.Brinummeita{
+    grid-area: 1/1/3/2;
+    background: url(../img/Brinuma_meita-15.jpg) no-repeat;
+    background-size: cover;
+    margin-top: 7px;
 
-    }
-    .Alina{
-        grid-area: 3/1/4/2;
-        background: url(../img/Alina_1\ 1.jpg) no-repeat;
-        background-size: cover;
-    }    
-    .Anda{
-        grid-area: 1/2/4/4;
-        background: url(../img/Anda_2\ 1.jpg) no-repeat;
-        background-size: cover;
-    }
-    .Zanda{
-        grid-area: 4/1/6/3;
-        background: url(../img/Zanda_1.jpg) no-repeat;
-        background-size: cover;
-        margin-top: 0;
-    }
-    .Sibilla{
-        grid-area: 4/3/6/4;
-        background: url(../img/Sibilla_4.jpg) no-repeat;
-        background-size: cover;
-        margin-top: 0;
-    }
-    .ripped_6_8{
-        grid-area: 5/1/6/4;
-        background: url(../img/ripped\ 6\ 8.svg) no-repeat;
-        background-size: cover;
-        z-index: 1;
-    }
-    #inner_register{
-        display: none;
-    }
-    #inner_register_mobile{
-        display: grid;
-        grid-template-rows: 309px 255px;
-        grid-template-columns: 1fr;
-        gap:5px;
-    } 
-    .sapnotajiem{
-        grid-area: 1/1/2/2;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-    }
-    .uznemejiem{
-        grid-area: 2/1/2/3;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-    }
-    /* #outer_container_mobile{
-        display: grid;
-        grid-template-rows: 769px 284px 357px 564px 670px 395px 483px;
-        grid-template-columns: 1fr;
-        gap: 5px;
-    } */
-    .poga_reg_1{
-        margin-bottom: 50px;
-    }
-    .meil{
-        margin-top: 120px;
-    }
-    #inner_atbalstitaji{
+}
+.Alina{
+    grid-area: 3/1/4/2;
+    background: url(../img/Alina_1\ 1.jpg) no-repeat;
+    background-size: cover;
+}    
+.Anda{
+    grid-area: 1/2/4/4;
+    background: url(../img/Anda_2\ 1.jpg) no-repeat;
+    background-size: cover;
+}
+.Zanda{
+    grid-area: 4/1/6/3;
+    background: url(../img/Zanda_1.jpg) no-repeat;
+    background-size: cover;
+    margin-top: 0;
+}
+.Sibilla{
+    grid-area: 4/3/6/4;
+    background: url(../img/Sibilla_4.jpg) no-repeat;
+    background-size: cover;
+    margin-top: 0;
+}
+.ripped_6_8{
+    grid-area: 5/1/6/4;
+    background: url(../img/ripped\ 6\ 8.svg) no-repeat;
+    background-size: cover;
+    z-index: 1;
+}
+#inner_register{
+    display: none;
+}
+#inner_register_mobile{
+    display: grid;
+    grid-template-rows: 309px 255px;
+    grid-template-columns: 1fr;
+    gap:5px;
+} 
+.sapnotajiem{
+    grid-area: 1/1/2/2;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.uznemejiem{
+    grid-area: 2/1/2/3;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+/* #outer_container_mobile{
+    display: grid;
+    grid-template-rows: 769px 284px 357px 564px 670px 395px 483px;
+    grid-template-columns: 1fr;
+    gap: 5px;
+} */
+.poga_reg_1{
+    margin-bottom: 50px;
+}
+.meil{
+    margin-top: 120px;
+}
+#inner_atbalstitaji{
 display: none;
-    }
-    #inner_atbalstitaji_mobile{
-        display: grid;
-        grid-template-rows: 176.08px 81.92px 96.2px;
-        grid-template-columns: 50% 50%;
-    }
-    .heading{
-        grid-area: 1/1/2/3;
-        display: flex;
-        justify-content: center;
-        margin-top: 100px;
-        font-family: 'Oswald';
-        font-weight: 500;
-        font-size: 24px;
-        line-height: 35.37px;
-        color: rgba(47,72,88,1);
-    }
-    .icon_1{
-        grid-area: 2/1/3/2;
-        /* background: url(../img/getlogo\ 1.png) no-repeat; */
-    }
-    .icon_2{
-        grid-area: 2/2/3/3;
-        direction: ltr;
-        display: flex;
-        justify-content: center;
-        /* background: url(../img/sem_logo-2\ 1.png) no-repeat; */
-    }
-    .icon_3{
-        grid-area: 3/1/4/2;
-        /* background: url(../img/Citybee-logo\ 1.png) no-repeat; */
-    }
-        .icon_4{
-        grid-area: 3/2/4/3;
-        /* background: url(../img/logo1\ 1.png) no-repeat; */
-    }
+}
+#inner_atbalstitaji_mobile{
+    display: grid;
+    grid-template-rows: 176.08px 81.92px 96.2px;
+    grid-template-columns: 50% 50%;
+}
+.heading{
+    grid-area: 1/1/2/3;
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+    font-family: 'Oswald';
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 35.37px;
+    color: rgba(47,72,88,1);
+}
+.icon_1{
+    grid-area: 2/1/3/2;
+    /* background: url(../img/getlogo\ 1.png) no-repeat; */
+}
+.icon_2{
+    grid-area: 2/2/3/3;
+    direction: ltr;
+    display: flex;
+    justify-content: center;
+    /* background: url(../img/sem_logo-2\ 1.png) no-repeat; */
+}
+.icon_3{
+    grid-area: 3/1/4/2;
+    /* background: url(../img/Citybee-logo\ 1.png) no-repeat; */
+}
+.icon_4{
+grid-area: 3/2/4/3;
+/* background: url(../img/logo1\ 1.png) no-repeat; */
+}
+#inner_footer{
+    display: none;
+}
+#inner_footer_mobile{
+    height: 483px;
+}
 
 }
