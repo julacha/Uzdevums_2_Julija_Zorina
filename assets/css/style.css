@@ -510,6 +510,9 @@ display:none;
 .facebook{
     margin-right: 29px;
 }
+#inner_footer_mobile{
+    display: none;
+}
 @media (max-width: 768px){
 .header_nav{
     display: none;
@@ -535,7 +538,6 @@ display:none;
     display:grid;
     grid-template-rows: 376px 1fr;
     grid-template-columns: 1fr 1fr;
-    gap:5px;
 }
 .logo{
     grid-area: 1/1/2/2;
@@ -566,6 +568,9 @@ display:none;
     display: none;
 }
 .biedriba{
+    display: none;
+}
+#inner_footer_mobile{
     display: none;
 }
 }
@@ -652,12 +657,6 @@ display:none;
     justify-content: center;
     align-items: center;
 }
-/* #outer_container_mobile{
-    display: grid;
-    grid-template-rows: 769px 284px 357px 564px 670px 395px 483px;
-    grid-template-columns: 1fr;
-    gap: 5px;
-} */
 .poga_reg_1{
     margin-bottom: 50px;
 }
@@ -702,11 +701,13 @@ display: none;
 grid-area: 3/2/4/3;
 /* background: url(../img/logo1\ 1.png) no-repeat; */
 }
+
 #inner_footer{
     display: none;
 }
-#inner_footer_mobile{
-    height: 483px;
+#inner_footer_mobile{ 
+background: url(../img/Mobile_footer.png) no-repeat;
+background-size: cover;
+}
 }
 
-}
