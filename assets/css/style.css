@@ -159,40 +159,74 @@ display: none;
 .Zanda{
     grid-area: 1/1/5/2;
     margin-top: 14px;
-    background: url(../img/Zanda_1.jpg) no-repeat;
-    background-size: cover;
-    /* width: 328px;
-    height: 355px; */
+    /* background: url(../img/Zanda_1.jpg) no-repeat;
+    background-size: cover;*/
+    /* width: auto;
+    height: 474px;
+    object-fit: cover;
+    object-position: center; */
+    /* width: 328px;*/
+    /* height: 355px; */
+}
+.zanda_img{
+    width: 100%;
+    height: 429px;
+    object-fit: cover;
+    object-position: center;
 }
 .Sibilla{
     grid-area: 1/2/5/3;
     margin-top: 19px;
-    background: url(../img/Sibilla_4.jpg) no-repeat;
-    background-size: cover;
+    /* background: url(../img/Sibilla_4.jpg) no-repeat;
+    background-size: cover; */
     /* width: 334px;
     height: 364px; */
+}
+.sibilla_img{
+    width: 100%;
+    height: 429px;
+    object-fit: cover;
+    object-position: center;
 }
 .Brinummeita{
     grid-area: 1/3/3/4;
     margin-top: 19px;
-    background: url(../img/Brinuma_meita-15.jpg) no-repeat;
-    background-size: cover;
+    /* background: url(../img/Brinuma_meita-15.jpg) no-repeat;
+    background-size: cover; */
     /* width: 298px;
     height: 180px; */
 }
+.brinummeita_img{
+    width: 100%;
+    height: 216px;
+    object-fit: cover;
+    object-position: center;
+}
 .Alina{
     grid-area: 3/3/5/4;
-    background: url(../img/Alina_1\ 1.jpg) no-repeat;
-    background-size: cover;
+    /* background: url(../img/Alina_1\ 1.jpg) no-repeat;
+    background-size: cover; */
     /* width: 298px;
     height: 184px; */
 }
+.alina_img{
+    width: 100%;
+    height: 239px;
+    object-fit: cover;
+    object-position: center;
+}
 .Anda{
     grid-area: 1/4/5/5;
-    background: url(../img/Anda_2\ 1.jpg) no-repeat;
-    background-size: cover;
+    /* background: url(../img/Anda_2\ 1.jpg) no-repeat;
+    background-size: cover; */
     /* width: 406px;
     height: 383px; */
+}
+.anda_img{
+    width: 100%;
+    height: 448px;
+    object-fit: cover;
+    object-position: center;
 }
 .ripped_6_8{
     grid-area: 4/1/5/5;
@@ -351,7 +385,6 @@ display: none;
 .formcheck{
     display:flex;
     flex-wrap: nowrap;
-    /* flex-direction: row; */
 }
 #check.inputcheck{
     margin-bottom: 21px;
@@ -359,7 +392,6 @@ display: none;
 .check_text{
     margin-left: 21px;
     font-size: 14px;
-    display: flex;
 }
 .sbmbutton{
 background-color: white;
