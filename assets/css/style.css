@@ -46,6 +46,7 @@ body{
     font-style: normal;
     font-weight: normal;
     color: #060606;
+    margin: 0; 
 }
 
 #outer-container{
@@ -345,11 +346,20 @@ display: none;
     margin-bottom: 50px;
     height: 39px;
     width: 612px;
-    display: inline-flex;
+    /* display: flex; */
+}
+.formcheck{
+    display:flex;
+    flex-wrap: nowrap;
+    /* flex-direction: row; */
+}
+#check.inputcheck{
+    margin-bottom: 21px;
 }
 .check_text{
     margin-left: 21px;
     font-size: 14px;
+    display: flex;
 }
 .sbmbutton{
 background-color: white;

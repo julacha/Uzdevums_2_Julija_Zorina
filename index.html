@@ -113,8 +113,10 @@
     </form>
     <div class="lauki">* obligāti aizpildāmie lauki</div>
     <div class="check">
-        <img src="assets/img/Rectangle 44.png" height="16px" width="16px">
-        <div class="check_text">Piekrītu, ka mani dati tiks izmantoti likumdošanā noteiktā kārtībā un tiks saglabāti līdz brīdim, kamēr tas būs nepieciešams.</div>
+        <form action="index.php" method="POST" class="formcheck">
+            <input type="checkbox" id="check" class="inputcheck" name="data" value="checkdata">
+            <label for="check" class="check_text">Piekrītu, ka mani dati tiks izmantoti likumdošanā noteiktā kārtībā un tiks saglabāti līdz brīdim, kamēr tas būs nepieciešams.</label>
+        </form>
     </div>
     <button type="Submit" class="sbmbutton"> <img src="assets/img/sutitsvg.svg" alt="poga_sutit"></button>
 </div><!--close "formcontainer"-->
