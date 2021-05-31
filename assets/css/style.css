@@ -500,6 +500,7 @@ body{
 }
 .formcheck{
     display:flex;
+    width: 612px;
     flex-wrap: nowrap;
 }
 #check.inputcheck{
@@ -577,7 +578,7 @@ footer{
 }
 #inner_footer{
     display:grid;
-    grid-template-rows: 376px;
+    grid-template-rows: 483px;
     grid-template-columns: 25% 25% 25% 25%;
     gap:5px;
 }
@@ -587,6 +588,7 @@ footer{
     flex-direction: column;
     align-items:center;
     margin-top: 71px;
+    justify-content: space-between;
 }
 .footer_logo{
     margin-bottom: 70px;
@@ -594,7 +596,7 @@ footer{
 .tiesibas{
     margin-bottom: 13px;
     color: rgba(255,255,255,1);
-    font-size: 14px;  
+    font-size: 14px;
 }
 .inner_menu{
     grid-area: 1/2/2/3;
@@ -629,6 +631,9 @@ footer{
 .kontakti{
     grid-area: 1/4/2/5;
     margin-right: 64px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 .name2{
     font-size: 24px;
@@ -642,7 +647,7 @@ footer{
 display:none;
 }
 .kont{
-    font-size: 18px;
+    font-size: 14px;
     color: rgba(255,255,255,1);
     display: flex;
     flex-direction: column;
@@ -703,7 +708,7 @@ display:none;
 }
 .kontakti{
     grid-area: 1/2/2/3;
-    margin-top: 71px;
+    margin-top: 153px;
     margin-right: 64px;
 }
 .name1{
