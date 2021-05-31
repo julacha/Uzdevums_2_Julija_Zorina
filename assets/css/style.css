@@ -75,7 +75,7 @@ body{
     justify-self:flex-end;
 }
 .menu_img{
-display: none;
+    display: none;
  }
 .menu_mobile{
     display: none;
@@ -170,7 +170,6 @@ display: none;
 }
 .header_link{
     text-decoration: none;
-    /* margin-right: 35px; */
     font-size: 18px;
     font-weight: 500;
     line-height: 21.94px;
@@ -193,7 +192,6 @@ display: none;
     object-position: center;
 }
 .resp_header_mob{
-    /* height:48.03px; */
     margin-bottom: 43.97px;
     display: flex;
     justify-content: space-between;
@@ -297,14 +295,6 @@ display: none;
 .Zanda{
     grid-area: 1/1/5/2;
     margin-top: 14px;
-    /* background: url(../img/Zanda_1.jpg) no-repeat;
-    background-size: cover;*/
-    /* width: auto;
-    height: 474px;
-    object-fit: cover;
-    object-position: center; */
-    /* width: 328px;*/
-    /* height: 355px; */
 }
 .zanda_img{
     width: 100%;
@@ -315,10 +305,6 @@ display: none;
 .Sibilla{
     grid-area: 1/2/5/3;
     margin-top: 19px;
-    /* background: url(../img/Sibilla_4.jpg) no-repeat;
-    background-size: cover; */
-    /* width: 334px;
-    height: 364px; */
 }
 .sibilla_img{
     width: 100%;
@@ -329,10 +315,6 @@ display: none;
 .Brinummeita{
     grid-area: 1/3/3/4;
     margin-top: 19px;
-    /* background: url(../img/Brinuma_meita-15.jpg) no-repeat;
-    background-size: cover; */
-    /* width: 298px;
-    height: 180px; */
 }
 .brinummeita_img{
     width: 100%;
@@ -342,10 +324,6 @@ display: none;
 }
 .Alina{
     grid-area: 3/3/5/4;
-    /* background: url(../img/Alina_1\ 1.jpg) no-repeat;
-    background-size: cover; */
-    /* width: 298px;
-    height: 184px; */
 }
 .alina_img{
     width: 100%;
@@ -355,10 +333,6 @@ display: none;
 }
 .Anda{
     grid-area: 1/4/5/5;
-    /* background: url(../img/Anda_2\ 1.jpg) no-repeat;
-    background-size: cover; */
-    /* width: 406px;
-    height: 383px; */
 }
 .anda_img{
     width: 100%;
@@ -420,21 +394,27 @@ display: none;
     line-height: 35.57px;
     margin-top: 150px;
     margin-bottom: 50px;
-    /* margin-left: 84px; */
     text-align: center;
     width: 500px;
 }
 .poga_reg_1{
     width: 233px;
     height: 50px;
-    /* margin-left: 300px; */
     margin-bottom: 150px;
+    border: none; 
+    outline: none;
+    margin-bottom: 150px;
+    background: none;
+    cursor:pointer;
 }
 .poga_reg_2{
     width: 233px;
     height: 50px;
-    /* margin-left: 218px; */
+    border: none; 
+    outline: none;
     margin-bottom: 150px;
+    background: none;
+    cursor:pointer;
 }
 .formcontainer{
     grid-area: 5/1/6/2;
@@ -517,8 +497,6 @@ display: none;
     margin-top: 25px;
     margin-bottom: 50px;
     height: 39px;
-    width: 612px;
-    /* display: flex; */
 }
 .formcheck{
     display:flex;
@@ -532,9 +510,10 @@ display: none;
     font-size: 14px;
 }
 .sbmbutton{
-background-color: white;
-border: none;
-padding:0;
+    background-color: white;
+    border: none;
+    padding:0;
+    cursor:pointer;
 }
 .sbmbutton:focus {
     outline: none !important
@@ -563,33 +542,23 @@ padding:0;
 }
 .icon_1{
     grid-area: 2/1/3/2;
-    /* background: url(../img/getlogo\ 1.png) no-repeat; */
     align-items: flex-start;
     direction: rtl;
 }
 .icon_2{
     grid-area: 2/2/3/3;
-    /* background: url(../img/sem_logo-2\ 1.png) no-repeat; */
     display: flex;
     align-items: flex-start;
     direction: rtl;
 }
-
-/* .sem{
-    display: flex;
-    align-items: inherit;
-    justify-content: right;
-} */
 .icon_3{
     grid-area: 2/3/3/4;
-    /* background: url(../img/Citybee-logo\ 1.png) no-repeat; */
     display: flex;
     align-items: flex-start;
     direction: rtl; 
 }
 .icon_4{
     grid-area: 2/4/3/5;
-    /* background: url(../img/logo1\ 1.png) no-repeat; */
     display: flex;
     align-items: flex-start;
     justify-content: center; 
@@ -695,7 +664,7 @@ display:none;
     display: none;
 }
 #inner_footer_tablet{
-display: none;
+    display: none;
 }
 @media (max-width: 768px){
 .header_nav{
@@ -768,7 +737,6 @@ display: none;
 .responsive_menu{
     display: none;
 }
-
 .resp_menu_mobile{
     display: none;
 }
@@ -789,14 +757,10 @@ display: none;
 }
 .ripped_6_7{
     grid-area: 1/1/2/4;
-    /* background: url(../img/ripped\ 6\ 7.svg) no-repeat;
-    background-size: cover; */
     z-index: 1;
 }
 .Brinummeita{
     grid-area: 1/1/3/2;
-    /* background: url(../img/Brinuma_meita-15.jpg) no-repeat;
-    background-size: cover; */
     margin-top: 7px;
 }
 .brinummeita_mob{
@@ -806,8 +770,6 @@ display: none;
 }
 .Alina{
     grid-area: 3/1/4/2;
-    /* background: url(../img/Alina_1\ 1.jpg) no-repeat;
-    background-size: cover; */
 }
 .alina_mob{
     width: 100%;
@@ -817,8 +779,6 @@ display: none;
 } 
 .Anda{
     grid-area: 1/2/4/4;
-    /* background: url(../img/Anda_2\ 1.jpg) no-repeat;
-    background-size: cover; */
 }
 .anda_mob{
     width: 100%;
@@ -828,8 +788,6 @@ display: none;
 } 
 .Zanda{
     grid-area: 4/1/6/3;
-    /* background: url(../img/Zanda_1.jpg) no-repeat;
-    background-size: cover; */
     margin-top: 0;
 }
 .zanda_mob{
@@ -840,8 +798,6 @@ display: none;
 } 
 .Sibilla{
     grid-area: 4/3/6/4;
-    /* background: url(../img/Sibilla_4.jpg) no-repeat;
-    background-size: cover; */
     margin-top: 0;
 }
 .sibilla_mob{
@@ -886,7 +842,7 @@ display: none;
     margin-top: 120px;
 }
 #inner_atbalstitaji{
-display: none;
+    display: none;
 }
 #inner_atbalstitaji_mobile{
     display: grid;
@@ -906,34 +862,30 @@ display: none;
 }
 .icon_1{
     grid-area: 2/1/3/2;
-    /* background: url(../img/getlogo\ 1.png) no-repeat; */
 }
 .icon_2{
     grid-area: 2/2/3/3;
     direction: ltr;
     display: flex;
     justify-content: center;
-    /* background: url(../img/sem_logo-2\ 1.png) no-repeat; */
 }
 .icon_3{
     grid-area: 3/1/4/2;
-    /* background: url(../img/Citybee-logo\ 1.png) no-repeat; */
 }
 .icon_4{
-grid-area: 3/2/4/3;
-/* background: url(../img/logo1\ 1.png) no-repeat; */
+    grid-area: 3/2/4/3;
 }
 
 #inner_footer{
-display: none;
+    display: none;
 }
 #inner_footer_mobile{
-display:grid;
-grid-template-rows: 1fr;
-grid-template-columns: 1fr;
+    display:grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: 1fr;
 }
 #inner_footer_tablet{
-display: none;
+    display: none;
 }
 .inner_footermob{
     width: 100%;
