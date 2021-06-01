@@ -47,8 +47,8 @@ body{
     font-weight: normal;
     color: #060606;
     margin: 0;
+    padding: 0;
 }
-
 #outer-container{
     display: grid;
     grid-template-rows: 769px 414px 398px 429px 817px 422.57px 59.32px 376px;
@@ -676,6 +676,13 @@ display:none;
     display: flex;
     flex-direction: column;
     text-align: right;
+    font-weight: 500;
+}
+.kont_meil{
+    font-size: 18px;
+    color: rgba(255,255,255,1);
+    display: flex;
+    text-align:right;
     font-weight: 500;
 }
 .kontakt_img{
