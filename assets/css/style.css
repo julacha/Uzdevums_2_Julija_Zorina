@@ -656,15 +656,20 @@ footer{
 display:none;
 }
 .kont{
-    font-size: 14px;
+    font-size: 18px;
     color: rgba(255,255,255,1);
     display: flex;
     flex-direction: column;
     text-align: right;
-    margin-bottom: 12px;
+    /* margin-bottom: 12px; */
+    font-weight: 500;
 }
 .kont:last-child{
     margin-bottom: 20px;
+}
+.kont_phone{
+    margin-top: 12px;
+    margin-bottom: 10px;
 }
 .kontakt_img{
     text-align: right;
