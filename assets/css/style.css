@@ -305,7 +305,7 @@ body{
 }
 .zanda_img{
     width: 100%;
-    height: 429px;
+    height: 100%;
     object-fit: cover;
     object-position: center;
 }
@@ -315,7 +315,7 @@ body{
 }
 .sibilla_img{
     width: 100%;
-    height: 429px;
+    height: 100%;
     object-fit: cover;
     object-position: center;
 }
@@ -343,7 +343,7 @@ body{
 }
 .anda_img{
     width: 100%;
-    height: 448px;
+    height: 100%;
     object-fit: cover;
     object-position: center;
 }
