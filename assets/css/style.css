@@ -54,7 +54,7 @@ body{
     grid-template-rows: 769px 414px 398px 429px 817px 422.57px 59.32px 376px;
     grid-template-columns: 1fr;
     gap: 5px;
-    overflow: hidden
+    overflow: hidden;
 }
 /* Header styles start */
 .union{
