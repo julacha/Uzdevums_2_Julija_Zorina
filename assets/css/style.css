@@ -54,7 +54,6 @@ body{
     grid-template-rows: 769px 414px 398px 429px 817px 422.57px 59.32px 376px;
     grid-template-columns: 1fr;
     gap: 5px;
-    overflow: hidden;
 }
 /* Header styles start */
 .union{
@@ -694,11 +693,6 @@ display:none;
     display: none;
 }
 @media (max-width: 768px){
-/* #outer-container{
-    max-width: 100%; 
-    padding: 0;
-    margin: 0;
-} */
 .header_nav{
     display: none;
 }
