@@ -35,3 +35,15 @@ menu_closemob.addEventListener("click", function(){
       resp_menu_mob.classList.add("_active");
 }
 });
+
+
+$(".play").on("click", function(){
+  $('.video_1')[0].play();
+  $('.play').hide();
+  });
+  $(".video_1").on("click", function(){
+  $('.video_1')[0].pause();
+  $('.play').show();
+  });
+
+  $('.video_1').click(function(){this.paused?this.play():this.pause();});
