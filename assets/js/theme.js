@@ -46,4 +46,8 @@ $(".play").on("click", function(){
   $('.play').show();
   });
 
-  $('.video_1').click(function(){this.paused?this.play():this.pause();});
+  // $('.video_1').click(function(){this.paused?this.play():this.pause();}); 
+
+  $('.play').click(function(){
+    this[this.paused ? 'play' : 'pause']();
+});
