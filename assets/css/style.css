@@ -267,7 +267,7 @@ body{
 .play{
     z-index: 5;
     top: 40%;
-    left:50%;
+    left: 42%;
     position: absolute;
     cursor:pointer;
 }
