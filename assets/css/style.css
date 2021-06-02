@@ -264,10 +264,14 @@ body{
     object-fit: cover;
     object-position: center;
 }
+*::-webkit-media-controls-start-playback-button {
+    display: none!important;
+    -webkit-appearance: none;
+}
 .play{
     z-index: 5;
     top: 40%;
-    left: 42%;
+    left: 45%;
     position: absolute;
     cursor:pointer;
 }
