@@ -47,15 +47,12 @@ body{
     font-weight: normal;
     color: #060606;
     margin: 0;
-
 }
 #outer-container{
     display: grid;
     grid-template-rows: 769px 414px 398px 429px 817px 422.57px 59.32px 376px;
     grid-template-columns: 1fr;
     gap: 5px;
-    margin: 0;
-    overflow-x: hidden !important;
 }
 /* Header styles start */
 .union{
@@ -262,9 +259,6 @@ body{
     height: 722px;
 }
 .video_1{
-    /* width: 100%;
-    position: relative;
-    height: 722px; */
     width: 100%;
     height: 100%;
     object-fit: cover;
@@ -356,12 +350,8 @@ body{
 }
 .ripped_6_8{
     grid-area: 4/1/5/5;
-    /* width: 100%; */
     background: url(../img/ripped\ 6\ 8.svg) no-repeat;
     background-size: cover;
-    /* height: 55px;
-    object-fit: cover;
-    object-position: center; */
     z-index: 1;
 }
 .register{
